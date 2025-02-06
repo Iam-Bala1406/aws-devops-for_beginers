@@ -1,0 +1,1 @@
+Day 1 - 3: Introduction to Cloud Computing and AWS Day 1: Introduction to Cloud Computing What is cloud computing? Types of cloud (Public, Private, Hybrid) Cloud deployment models (IaaS, PaaS, SaaS) Benefits of cloud computing Introduction to AWS: Overview and global infrastructure
