@@ -1,0 +1,10 @@
+ssh -i /path/to/your-key.pem ec2-user@your-ec2-public-ip
+ssh -i /path/to/your-key.pem ubuntu@your-ec2-public-ip
+sudo apt update && sudo apt install openjdk-17-jdk -y   # For Ubuntu
+sudo yum install java-17-amazon-corretto -y  # For Amazon Linux
+java -version
+javac SimpleWebServer.java
+java SimpleWebServer
+http://your-ec2-public-ip:8080
+cd ~  # Go to home directory
+git clone https://github.com/Iam-Bala1406/aws-devops-for_beginers.git
