@@ -8,3 +8,7 @@ java SimpleWebServer
 http://your-ec2-public-ip:8080
 cd ~  # Go to home directory
 git clone https://github.com/Iam-Bala1406/aws-devops-for_beginers.git
+chmod 400 newkeyPair.pem
+ssh -i newkeyPair.pem ubuntu@10.0.141.193
+scp -i /c/Users/admin/Downloads/newkeyPair.pem /c/Users/admin/Downloads/newkeyPair.pem ubuntu@54.175.81.214:/home/ubuntu
+
