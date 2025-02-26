@@ -20,7 +20,7 @@ public class SimpleWebServer {
             String response = "<!DOCTYPE html>"
                     + "<html>"
                     + "<head>"
-                    + "<title>VPC Demo Project</title>"
+                    + "<title>VPC Demo Project on private subnet concept</title>"
                     + "<style>"
                     + "body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background-color: #f4f4f4; }"
                     + "h1 { color: #0073e6; font-size: 36px; }"
