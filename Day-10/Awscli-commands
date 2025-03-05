@@ -24,7 +24,7 @@ bash
 Copy
 Edit
 aws configure
-Enter the required details when prompted:
+Enter the required details when prompted:ami-032ae1bccc5be78ca
 
 pgsql
 Copy
