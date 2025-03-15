@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-username/your-repo.git'  // Replace with your repo URL
+                git 'https://github.com/Iam-Bala1406/aws-devops-for_beginers.git'  // Your repo URL
             }
         }
         
@@ -24,6 +24,10 @@ pipeline {
             steps {
                 echo 'Hello, World! Jenkins Pipeline with Maven!'
             }
+        }
+    }
+}
+
         }
     }
 }
